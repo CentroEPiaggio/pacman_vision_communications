@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>vision_communications</name>
+  <name>pacman_vision_comm</name>
   <version>0.0.1</version>
-  <description>The vision node messages and services</description>
+  <description>The Pacman vision messages and services</description>
 
   <maintainer email="fspinelli@gmail.com">tabjones</maintainer>
   <license>PaCMan</license>
@@ -25,6 +25,7 @@
   <run_depend>std_msgs</run_depend>
   <run_depend>tf</run_depend>
   <run_depend>message_runtime</run_depend>
+  <run_depend>message_generation</run_depend>
 
   <export>
   </export>
