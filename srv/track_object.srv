@@ -1,2 +1,4 @@
+#Serviced by /pacman_vision/tracker/track_object
+#name must be an already estimated object
 string name
 ---
