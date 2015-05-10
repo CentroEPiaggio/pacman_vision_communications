@@ -24,6 +24,7 @@ add_service_files(
   get_scene.srv
   estimate.srv
   track_object.srv
+  grasp_verification.srv
 )
 
 # Generate added messages and services with any dependencies listed here
