@@ -1,2 +1,6 @@
-#Serviced by /pacman_vision/listener/grasp_verification
+#Serviced by /pacman_vision/tracker/grasp_verification
+int32 hand #which hand is grasping 1 <left>, 2 <right> or 0 <none> 
+geometry_msgs/PoseStamped obj_pose 
 ---
+int32 tracker_state #what tracker is doing 0 <not started>, 1 <started and running correctly>, 2 <lost object>
+geometry_msgs/PoseStamped tracked_pose
