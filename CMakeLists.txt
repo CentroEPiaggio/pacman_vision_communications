@@ -25,6 +25,7 @@ add_service_files(
   estimate.srv
   track_object.srv
   grasp_verification.srv
+  stop_track.srv
 )
 
 # Generate added messages and services with any dependencies listed here
