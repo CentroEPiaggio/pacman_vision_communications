@@ -26,6 +26,7 @@ add_service_files(
   track_object.srv
   grasp_verification.srv
   stop_track.srv
+  clusterize.srv
 )
 
 # Generate added messages and services with any dependencies listed here
