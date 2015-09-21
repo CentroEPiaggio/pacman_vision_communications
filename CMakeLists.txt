@@ -27,6 +27,7 @@ add_service_files(
   grasp_verification.srv
   stop_track.srv
   clusterize.srv
+  get_cloud_in_hand.srv
 )
 
 # Generate added messages and services with any dependencies listed here

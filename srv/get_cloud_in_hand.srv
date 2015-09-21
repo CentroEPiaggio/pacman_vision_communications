@@ -1,0 +1,10 @@
+#Serviced by /pacman_vision/listener/get_cloud_in_hand
+#REQ
+# right: true for object in right hand, false for object in left hand
+# save: absolute path for point cloud saving on disk, must include also cloud name and extension, if != from false
+bool right
+string save="false"
+---
+#RES
+#obj: point cloud of object without hand
+sensor_msgs/PointCloud2 obj
