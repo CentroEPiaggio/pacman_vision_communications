@@ -28,8 +28,8 @@ add_service_files(
   stop_track.srv
   clusterize.srv
   get_cloud_in_hand.srv
-  acquire.srv
-  reload_transform.srv
+  start_modeler.srv
+  stop_modeler.srv
 )
 
 # Generate added messages and services with any dependencies listed here

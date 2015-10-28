@@ -1,5 +1,0 @@
-#Serviced by /pacman_vision/pose_scanner/reload_transform
-#REQ
-# path: To h5 file to load
-string path
----
