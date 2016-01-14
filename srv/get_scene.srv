@@ -1,5 +1,5 @@
 #Serviced by /pacman_vision/get_processed_scene
-#If save is <value> different from "false" a pcd file, named <value>, is saved inside your $home
-string save="false"
+#If save is not empty it specifies the FULL path of a pcd file to save
+string save
 ---
 sensor_msgs/PointCloud2 scene
