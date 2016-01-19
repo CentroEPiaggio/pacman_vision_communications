@@ -1,11 +1,14 @@
 #Serviced by /pacman_vision/listener/get_cloud_in_hand
 #REQ
 # right: true for object in right hand, false for object in left hand
-# save: absolute path for point cloud saving on disk, must be valid dir. if  save == false saving is skipped
+# save_obj: absolute path for object point cloud saving on disk, must point to a .pcd file. if this string is empty object disk saving is skipped
+# save_obj: absolute path for hand point cloud saving on disk, must point to a .pcd file. if this string is empty hand disk saving is skipped
 bool right
-string save
+string save_obj
+string save_hand
 ---
 #RES
 #obj: point cloud of object without hand
+#hand: point cloud of hand only
 sensor_msgs/PointCloud2 obj
 sensor_msgs/PointCloud2 hand
