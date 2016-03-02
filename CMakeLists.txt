@@ -29,7 +29,7 @@ add_service_files(
   clusterize.srv
   get_cloud_in_hand.srv
   start_modeler.srv
-  stop_modeler.srv
+  stop_modeler_recording.srv
 )
 
 # Generate added messages and services with any dependencies listed here
