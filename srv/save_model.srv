@@ -1,0 +1,8 @@
+#Serviced by /pacman_vision/in_hand_modeler/save_model
+#REQ
+# model_path: absolute path for model saving on disk, must be a .pcd file. If this string is empty, the model is just returned as a response.
+string model_path
+---
+#RES
+# model: point cloud of the model
+sensor_msgs/PointCloud2 model

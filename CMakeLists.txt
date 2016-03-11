@@ -30,6 +30,8 @@ add_service_files(
   get_cloud_in_hand.srv
   start_modeler.srv
   stop_modeler_recording.srv
+  reset_model.srv
+  save_model.srv
 )
 
 # Generate added messages and services with any dependencies listed here
